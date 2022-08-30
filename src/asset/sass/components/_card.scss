@@ -1,0 +1,22 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    box-shadow: rgba($color-black,.3) 1rem 2rem 3rem;
+    border-radius: 3px;
+    transition: transform .2s;
+    background-color: $color-white;
+    &:hover{
+        transform: scale(1.1);
+    }
+    &__body{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.5rem;
+        padding: 2rem;
+    }
+    &__txt{
+        flex: 0 0 50%;
+    }
+}

@@ -1,0 +1,59 @@
+.u__margin-mt-xs{
+    margin-top: $xs-margin;
+}
+.u__margin-mb-xs{
+    margin-bottom: $xs-margin;
+}
+
+.u__margin-mt-sm{
+    margin-top: $sm-margin;
+}
+.u__margin-mb-sm{
+    margin-bottom: $sm-margin;
+}
+
+.u__margin-mt-md{
+    margin-top:$sm-margin;
+    @include respond(desktop) { // width < 1200?
+        margin-top:$md-margin
+    }
+}
+.u__margin-mb-md{
+    margin-bottom:$sm-margin;
+    @include respond(desktop) { // width < 1200?
+        margin-bottom:$md-margin
+    }
+}
+
+.u__margin-mt-xl{
+    margin-top: $xl-margin;
+}
+.u__margin-mb-xl{
+    margin-bottom: $xl-margin;
+}
+
+.u__margin-mt-xxl{
+    margin-top: $xxl-margin;
+}
+.u__margin-mb-xxl{
+    margin-bottom: $xxl-margin;
+}
+
+
+.u__txt-align--right{
+    text-align: right;
+}
+
+.u__txt-align--left{
+    text-align: left;
+}
+
+.u__txt-align--center{
+    text-align: center;
+}
+
+.u__txt-align--justify{
+    text-align:justify;
+}
+
+

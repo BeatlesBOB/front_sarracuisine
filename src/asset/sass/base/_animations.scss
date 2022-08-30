@@ -1,0 +1,9 @@
+.animate{
+    &--container{
+        overflow: hidden;
+    }
+    &--txt{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+}

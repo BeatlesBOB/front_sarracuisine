@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    width: 100vw;
+    transform: translateX(-3rem);
+    padding-inline: 3rem;
+    &--white{
+        background-color: $color-white;
+    }
+    .nav--primary{
+        margin-right: auto;
+    }
+}

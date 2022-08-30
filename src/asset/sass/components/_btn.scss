@@ -1,0 +1,42 @@
+.btn{
+    text-decoration: none;
+    padding: 2rem 4rem;
+    color: $color-white;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 2px;
+    display: block;
+    transition: all .2s;
+
+    &--primary{
+        background-color: $color-primary;
+    }
+
+    &--secondary{
+        background-color: $color-secondary;
+    }
+
+    
+    &:hover{
+        transform: translateY(-.3rem);
+        box-shadow: rgba($color-black,.3) .5rem 1rem 4rem;
+    }
+}
+
+.btn--round{
+    padding: 0;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &--primary{
+        background-color: $color-primary;
+    }
+    svg{
+        fill: $color-white;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}

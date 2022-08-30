@@ -1,0 +1,32 @@
+.heading{
+    &--primary{
+        font-weight: 500;
+        font-size: 7rem;
+    }
+    &--secondary{
+        font-size: 6rem;
+        font-weight: 500;
+        &--white{
+            color: $color-white;
+        }
+    }
+    &--tertiary{
+        font-size: 2.25rem;
+        font-weight: 500;
+        &--white{
+            color: $color-white;
+        }
+    }
+    &--quaternary{
+        font-size: 1.75rem;
+        font-weight: 400;
+    }
+}
+
+.paragraph{
+    font-size: 2rem;
+    font-weight: 300;
+    &--white{
+        color: $color-white;
+    }
+}

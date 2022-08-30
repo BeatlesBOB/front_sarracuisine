@@ -1,0 +1,28 @@
+.navigation{
+    &__list{
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+    }
+    &__sublist{
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+        position: absolute;
+
+    }
+    &__link{
+        text-decoration: none;
+        color: $color-secondary;
+        font-size: 1.5rem;
+        &:hover{
+            color: $color-primary;
+        }
+    }
+
+    &__item{
+        position: relative;  
+    }
+    
+}
