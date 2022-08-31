@@ -20,7 +20,7 @@ export default function ProductSlider() {
         item.forEach((element,index)=>{
             ScrollTrigger.create({
                 trigger:element,
-                start:'top top-=150',
+                start:'top top+=450',
                 end:'+=10',
                 onEnter: () => {
                     gsap.to('.product__slider__list',{
