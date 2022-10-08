@@ -24,7 +24,7 @@
     &__item{
         height: 100%;
         width: 33.3333%;
-        transition: width .2s;
+        transition: width .5s;
         display: flex;
         align-items: flex-end;
         padding: 3rem;
@@ -56,7 +56,7 @@
 
             }
             .item__paragraph{
-                line-height: normal;
+                height: auto;
                 visibility: visible;
                 opacity: 1;
             }
@@ -64,16 +64,16 @@
     }
     
     .item__heading{
-        transition: all .2s;
+        transition: all .5s;
         transform: rotate(-90deg);
         transform-origin: left;
-        // padding-left: 3rem;
+        backface-visibility: hidden;
     }
     .item__paragraph{
         backface-visibility: hidden;
-        line-height: 0;
-        transition: all .5s;
+        height: 0;
         visibility: hidden;
         opacity: 0;
+        transition: height .5s ease-in .5s,opacity 1s ease-in-out ;
     }
 }

@@ -16,7 +16,6 @@ export default function Story() {
                 end: "center center", // end after scrolling 500px beyond the start
                 scrub: 2, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar,
                 stagger:.5,
-                markers:true
             },
             y:0
         });

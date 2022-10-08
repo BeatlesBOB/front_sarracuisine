@@ -10,6 +10,9 @@
 
     &--primary{
         background-color: $color-primary;
+        &:hover{
+            color: $color-white;
+        }
     }
 
     &--secondary{

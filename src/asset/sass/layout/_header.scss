@@ -8,9 +8,7 @@
     width: 100vw;
     transform: translateX(-3rem);
     padding-inline: 3rem;
-    &--white{
-        background-color: $color-white;
-    }
+    background-color: $color-white;
     .nav--primary{
         margin-right: auto;
     }

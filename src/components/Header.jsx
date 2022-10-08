@@ -2,15 +2,16 @@ import React,{useEffect} from 'react'
 import logo from '../asset/images/logo.png'; // Tell webpack this JS file uses this image
 import {NavLink} from "react-router-dom";
 import gsap from 'gsap';
-
+import ScrollTrigger from 'gsap/ScrollTrigger';
 export default function Header(props) {  
   useEffect(()=>{
+    gsap.registerPlugin(ScrollTrigger)
+
     gsap.to('.header',{
-      backgroundColor:'white',
       boxShadow:'rgba(0,0,0,.5) 0 0 1rem',
       scrollTrigger:{
         trigger:'.header',
-        start:'top top',
+        start:'top top-=50',
         end:'top +=100',
         scrub:1
       }

@@ -4,12 +4,9 @@ import './asset/sass/main.scss'
 import {
   BrowserRouter,
 } from "react-router-dom";
-import gsap from 'gsap';
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 function App() {
-  gsap.registerPlugin(ScrollTrigger);
-
+ 
   return (
     <BrowserRouter>
           <Header></Header>
